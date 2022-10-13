@@ -64,6 +64,10 @@ _Paste the URL into your browser, choose a server to invite the bot to, and clic
 
 _To add the bot, your account needs "Manage Server" permissions._
 
+### Enable intents
+
+https://discordpy.readthedocs.io/en/stable/intents.html#privileged-intents
+
 ### Setting Files & Bot Start
 
 Now that your bot is ready, you need to take care of the installation of the bot files, settings, and all its dependencies on your Linux server:
