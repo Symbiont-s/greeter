@@ -24,7 +24,8 @@ import exceptions
 import settingsDiscordBot
 
 # Variables
-client = discord.Client()
+intents = discord.Intents().all()
+client = discord.Client(intents=intents)
 User = Query()
 news_accounts_db = TinyDB("newAcountsdb.json")
 commands_create_new_account = ["!create", "!createRC", "!createSTEEM"]
